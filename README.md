@@ -11,4 +11,16 @@ In this project, we are going to forecast the short-term passenger flow using ad
 
 By addressing these objectives, this study contributes to the growing body of knowledge on urban rail transit management and demonstrates the practical applications of advanced deep learning techniques in real-world scenarios.
 
+## METHODOLOGY
+### Conv-GCN:
 ![image](https://github.com/user-attachments/assets/d8bbd734-ce1d-4efd-88d4-909e54e6dd1d)
+
+### ARCHITECTURE:
+•	Input Layer: Accepts normalized inflow and outflow data.
+•	Graph Convolutional Layer: Applies the adjacency matrix to propagate information between nodes, capturing spatial dependencies.
+•	3D Convolutional Layer: Processes the temporal data to capture local patterns.
+•	Concatenation Layer: Merges inflow and outflow features.
+•	Additional Convolutional Layers: Refine the merged features.
+•	Flatten Layer: Transforms the 3D data into a 1D vector.
+•	Dense Layer: Produces the final predictions.
+
