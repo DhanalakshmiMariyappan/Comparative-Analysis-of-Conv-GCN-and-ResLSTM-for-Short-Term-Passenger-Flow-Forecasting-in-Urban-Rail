@@ -52,3 +52,4 @@ Input4: Directly processed by LSTM layers.
 •	Final Prediction: Attention-enhanced output is flattened and processed by a dense layer for the final prediction.
 
 
+C:\Users\HP\Downloads\INTERN_REPORT-20_page-0001.jpg
